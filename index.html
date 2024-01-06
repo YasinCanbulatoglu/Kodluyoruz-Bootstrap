@@ -1,0 +1,442 @@
+    <!doctype html>
+    <html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+            <link rel="stylesheet" href="Css/Style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    </head>
+
+    <body >
+        
+        <!-- Nav Başlangıç -->
+        <nav class="container">
+                <nav class="navbar bg-body-tertiary fixed-top navbar bg-dark border-bottom border-body" >
+                
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Kodluyoruz Music</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kodluyoruz Music</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#Hakkında">Hakkında</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Katagori
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#müzikaletleri-d">Muzik Aletleri</a></li>
+                                <li><a class="dropdown-item" href="#müzik-ekipmanları-d">MüzikEkipmanları</a></li>
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#yedek-parça-d">Yedek Parça</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Ara</button>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+            </nav>
+        </nav>
+        <!-- Nav Başlangıç Sonu -->
+        
+        
+        <!-- slide Başlangıç -->
+            <div class="container">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="Resimler/Aldın Aldın.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block ">
+
+                        <h5 class="text-primary">Günün Fırsatı</h5>
+                        <p class="text-primary">Gnün Fırsatı İle Size En Uygun Müzik Aletini En Uygun Fiyata Ala bilirsiniz.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000"> 
+                        <img src="Resimler/Yedek Parça.jpeg "  class="d-block w-100" alt="...">
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary">  Parçalarımız</h5>
+                        <p class="text-primary">Müzik Aletlerinizin Eskiyen Parçalarını Aramanıza Gerek Kalmadan Hepsini Buradan Alabirsiniz.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Resimler/İletşim.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary">İletişim</h5>
+                        <p class="text-primary">İster Mağzalarımızdan İsterseniz Web Sitemizden Bizimle İletişim Kura Bilir Ve Önerilerde Buluna Bilirsiniz.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        
+        </div>
+        <!-- slide Başlangıç Sonu -->
+
+
+        <!-- çerçeve başlangıç -->  
+
+<div class="container">
+    <div class="row">
+        <h2 class="müzikaletleri" id="müzikaletleri-d" style="color: brown;">Müzik Aletleri</h2>
+        <div class="row mt-4  " id="two">
+            <div class="col-md d-flex flex-wrap ">
+
+                <!-- çerçeve bir -->
+
+                <div class="card" >
+                        <img src="Resimler/Gitar.jpg    " class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gitar</h5>
+                                <p class="card-text">Size Özel Gitar.</p>
+                                <a href="Gitar.html" class="btn btn-primary">Gitar a git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Bateri.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bateri</h5>
+                                    <p class="card-text">Size Özel Bateri.</p>
+                                    <a href="Bateri.html" class="btn btn-primary">Bateri ye git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Piyano.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Piyano</h5>
+                                    <p class="card-text">Size Özel Piyano.</p>
+                                    <a href="Piyano.html" class="btn btn-primary">Piyano ya git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Kılarnet.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Kılarnet</h5>
+                                    <p class="card-text">Size Özel Kılarnetr.</p>
+                                    <a href="Kılarnet.html" class="btn btn-primary">Kılarnete git</a>
+                            </div>
+                </div>
+            
+                <div class="card " >
+                        <img src="Resimler/Darbuka.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Darbuka</h5>
+                                    <p class="card-text">Size Özel Darbuka.</p>
+                                    <a href="Darbuka.html" class="btn btn-primary">Darbuka ya git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Saz.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Saz</h5>
+                                <p class="card-text">Size Özel Saz.</p>
+                                <a href="Saz.html" class="btn btn-primary">Saz a git</a>
+                        </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Kemençe.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Kemençe</h5>
+                                <p class="card-text">Size Özel Kemençe.</p>
+                                <a href="Kemençe.html" class="btn btn-primary">Kemençe ye git</a>
+                        </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Akordeon.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Akordeon</h5>
+                                <p class="card-text">Size Özel Akordeon.</p>
+                                <a href="Akordion.html" class="btn btn-primary">Akordeon a git</a>
+                        </div>
+                </div>
+                
+
+
+                    
+            </div>
+        </div>
+
+    <!-- birinci çerçeve sonu -->
+    <!-- İkinci çerçeve -->
+
+        <h2 class="müzikaletleri  " id="müzik-ekipmanları-d"   style="color: brown;"  >Müzik Ekipmanları</h2>
+        
+        <div class="row mt-4  " id="two">
+            <div class="col-md d-flex flex-wrap ">
+
+                
+
+                <div class="card"  >
+                        <img src="Resimler/Gitar.jpg    " class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gitar</h5>
+                                <p class="card-text">Size Özel Gitar.</p>
+                                <a href="Gitarlar.html" class="btn btn-primary">Gitar a git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Bateri.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bateri</h5>
+                                    <p class="card-text">Size Özel Bateri.</p>
+                                    <a href="Davular.html" class="btn btn-primary">Bateri ye git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Piyano.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Piyano</h5>
+                                    <p class="card-text">Size Özel Piyano.</p>
+                                    <a href="Piyanolar.html" class="btn btn-primary">Piyano ya git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Kılarnet.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Kılarnet</h5>
+                                    <p class="card-text">Size Özel Kılarnetr.</p>
+                                    <a href="" class="btn btn-primary">Kılarnete git</a>
+                            </div>
+                </div>
+            
+                <div class="card " >
+                        <img src="Resimler/Darbuka.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Darbuka</h5>
+                                    <p class="card-text">Size Özel Darbuka.</p>
+                                    <a href="Darbukalar.html" class="btn btn-primary">Darbuka ya git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Saz.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Saz</h5>
+                                <p class="card-text">Size Özel Saz.</p>
+                                <a href="#" class="btn btn-primary">Saz a git</a>
+                        </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Kemençe.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Kemençe</h5>
+                                <p class="card-text">Size Özel Kemençe.</p>
+                                <a href="" class="btn btn-primary">Kemençe ye git</a>
+                        </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Akordeon.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Akordeon</h5>
+                                <p class="card-text">Size Özel Akordeon.</p>
+                                <a href="#" class="btn btn-primary">Akordeon a git</a>
+                        </div>
+                </div>
+                
+
+
+                    
+            </div>
+        </div>
+        <!-- ikinci çerçeve sonu -->
+
+        <!-- üçüncü çerçeve başlangıç-->
+
+        <h2 class="müzikaletleri  " id="yedek-parça-d"  style="color: brown;"   >Yedek Parça</h2>
+        
+        <div class="row mt-4  " id="two">
+            <div class="col-md d-flex flex-wrap ">
+
+                
+
+                <div class="card" >
+                        <img src="Resimler/Gitar.jpg    " class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Gitar</h5>
+                                <p class="card-text">Size Özel Gitar.</p>
+                                <a href="Gitarlar.html" class="btn btn-primary">Gitar a git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Bateri.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Bateri</h5>
+                                    <p class="card-text">Size Özel Bateri.</p>
+                                    <a href="Davular.html" class="btn btn-primary">Bateri ye git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Piyano.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Piyano</h5>
+                                    <p class="card-text">Size Özel Piyano.</p>
+                                    <a href="Piyanolar.html" class="btn btn-primary">Piyano ya git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                        <img src="Resimler/Kılarnet.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Kılarnet</h5>
+                                    <p class="card-text">Size Özel Kılarnetr.</p>
+                                    <a href="" class="btn btn-primary">Kılarnete git</a>
+                            </div>
+                </div>
+            
+                <div class="card " >
+                        <img src="Resimler/Darbuka.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                    <h5 class="card-title">Darbuka</h5>
+                                    <p class="card-text">Size Özel Darbuka.</p>
+                                    <a href="Darbukalar.html" class="btn btn-primary">Darbuka ya git</a>
+                            </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Saz.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Saz</h5>
+                                <p class="card-text">Size Özel Saz.</p>
+                                <a href="#" class="btn btn-primary">Saz a git</a>
+                        </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Kemençe.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Kemençe</h5>
+                                <p class="card-text">Size Özel Kemençe.</p>
+                                <a href="" class="btn btn-primary">Kemençe ye git</a>
+                        </div>
+                </div>
+
+                <div class="card" >
+                    <img src="Resimler/Akordeon.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                                <h5 class="card-title">Akordeon</h5>
+                                <p class="card-text">Size Özel Akordeon.</p>
+                                <a href="#" class="btn btn-primary">Akordeon a git</a>
+                        </div>
+                </div>
+                
+
+
+                    
+            </div>
+        </div>
+
+
+        <!-- üçüncüc çerçeve sonu -->
+
+
+    </div>
+
+</div> 
+        <!-- çerçeve  bittiş -->
+
+        <!-- footer başlangıç -->
+        
+    <div class="container " >
+        <h2 class="text-center p-4  " id="İletişim-Hakkında" style="color: brown;" > İletşim Hakkında </h2>
+        
+            <div class="row col-md-12">
+                <hr>
+
+            <div class="col-md-6  " id="İletişim">
+                <div class="list-group  text-center">
+                    <li class="list-group-item "> İletişim Kısmı</li>
+                    <li class="list-group-item list-group-item-action "> <a href="index.html">  Ana Sayfa </li>
+                    <li class="list-group-item list-group-item-action"> <a href=""> İletişim </li>
+                    <li class="list-group-item list-group-item-action"> <a href=""> Öneri </li></a>          
+                </div>
+            </div>
+
+            <div class="col-md-6  " id="Hakkında">
+                <div class="list-group  text-center">
+                    <li class="list-group-item "> Hakkında Kısmı</li>
+                    <li class="list-group-item list-group-item-action">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor pariatur itaque ullam inventore facilis quos incidunt vitae tempore ipsum architecto ipsam rerum, eaque dignissimos repellat quo minima odio. Obcaecati, quia? Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus necessitatibus harum ut quod quibusdam impedit quia veniam nisi eos autem ullam enim odio, sint </li>
+                    
+                </div>
+            </div>
+
+
+        </div>
+</div>
+        <!-- footer bittiş -->
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+function addDarkmodeWidget() {
+    const options = {
+    bottom: '64px', // default: '32px'
+    right: 'unset', // default: '32px'
+    left: '32px', // default: 'unset'
+    time: '0.5s', // default: '0.3s'
+    mixColor: '#fff', // default: '#fff'
+    backgroundColor: '#fff',  // default: '#fff'
+    buttonColorDark: '#100f2c',  // default: '#100f2c'
+    buttonColorLight: '#fff', // default: '#fff'
+    saveInCookies: false, // default: true,
+    label: '🌓', // default: ''
+    autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+}
+window.addEventListener('load', addDarkmodeWidget);
+</script>
+    </body>
+    </html>

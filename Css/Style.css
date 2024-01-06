@@ -1,0 +1,140 @@
+.navbar-brand{
+    letter-spacing: 2px;
+    
+}
+
+
+.navbar-brand::first-letter{
+font-size: 25px;
+
+}
+
+
+
+
+.carousel-item-img{
+    height: 700px ;
+}
+
+.card{
+position: relative;
+
+
+
+}
+
+.card .btn{
+    display: block ;
+
+
+}
+
+
+.card .yedek-parça{
+    background-color: aquamarine;
+    position: absolute;
+    right: 0;
+    color: black;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+.card .müzik-aletleri{
+    background-color: aquamarine;
+    position: absolute;
+    right: 0;
+    color: black;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+.card .ekipmanlar{
+    background-color: aquamarine;
+    position: absolute;
+    right: 0;
+    color: black;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+.card .çalışma-tantası{
+    background-color: aquamarine;
+    position: absolute;
+    right: 0;
+    color: black;
+    padding: 3px;
+    font-weight: bolder;
+
+}
+
+.card .btn{
+    display: block ;
+}
+
+#two .card {
+
+width: 25%;
+
+}
+    
+
+
+.card:hover{
+    transform:scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 10px 10px 8px grey ;
+    border-radius: 6px;
+
+}
+
+
+
+
+
+.müzikaletleri{
+    margin: 5px ;   
+    letter-spacing: 3px ;
+    box-shadow: 3px 3px 1px gray ;
+
+}
+
+.yedek-parça{
+    margin: 5px ;   
+    letter-spacing: 3px ;
+    box-shadow: 3px 3px 1px gray ;
+
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    
+    #two .card {
+        width: 100%;
+    }
+
+    .card:hover{
+        transform:none;
+        transition: none;
+        z-index: 1;
+        box-shadow: none ;
+        border-radius: 6px;
+    
+    }
+
+}
+
+
+.İletişim-Hakkında{
+    margin: 5px ;   
+    letter-spacing: 3px ;
+    box-shadow: 3px 3px 1px gray ;
+
+}
